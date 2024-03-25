@@ -1,0 +1,85 @@
+.titles{
+    /* margin: 0px 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(239, 239, 239, 1);
+
+}
+.h2{
+    font-family: Helvetica;
+    font-size: 38px;
+    font-weight: 700;
+/* line-height: 40px; */
+    letter-spacing: -1.600000023841858px;
+    color: black;
+
+}
+.h5{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -15px;
+    margin-bottom: -2px;
+/* line-height: 20px; */
+    text-align: center;
+    color: #000;
+    
+
+}
+
+
+.images{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    Padding:2.16px, 0px, 0px, 0px;
+    gap: 7px;
+    margin-bottom: 20px;
+}
+.more{
+    display: flex;
+    width: 752.39px;
+    justify-content: center;
+    align-items: center;
+    height: 82px;
+    padding: 0px 16px 0px 16px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+    opacity: 0px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 60px;
+
+
+}
+.discount{
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+
+}
+.butt{
+    width: Hug (158.56px)px;
+    height: Hug (52px)px;
+    padding: 16px 35.56px 16px 35px;
+    gap: 0px;
+    border-radius: 50px 50px 50px 50px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    color: black;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+
+
+}

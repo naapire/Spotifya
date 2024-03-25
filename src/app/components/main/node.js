@@ -1,0 +1,5 @@
+import FirstImage from "../../assets/image/one.svg"
+import SecondImage from "../../assets/image/two.svg"
+import ThirdImage from "../../assets/image/three.svg"
+import ForthImage from "../../assets/image/four.svg"
+import FifhImage from "../../assets/image/five.svg"

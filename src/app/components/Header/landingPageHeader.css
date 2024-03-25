@@ -1,0 +1,111 @@
+.header{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--app-block-padding);
+    /* background-color: var(--app-header-background); */
+    
+}
+.menu ul{
+ list-style: none;
+ display: flex;
+ gap: 30px;
+}
+@media(max-width:500px){
+  .menu ul{
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+  }
+}
+.menu ul li a{
+ padding: 5px;
+ text-decoration: none;
+ color: #fff;  
+ font-weight: 500;
+ font-size: 15px;
+}
+.menu ul li.active a{
+  color: #D9DADC;  
+}
+
+/* .bodyPart1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 480px;
+  padding: 39.5px, 100px, 39.5px, 100px;
+  background: rgba(29, 117, 222, 1);
+
+}
+.getPremium{
+  font-family: Helvetica;
+font-size: 39px;
+font-weight: 700;
+padding-bottom: 30px;
+/* line-height: 48px; */
+/* color: rgba(255, 255, 255, 1); */
+
+/* letter-spacing: 0em; */
+/* text-align: center; */
+
+/* } */
+/* .debitCredit{
+  font-family: Helvetica;
+font-size: 24px;
+font-weight: 300;
+line-height: 36px;
+color: rgba(255, 255, 255, 1);
+padding-bottom: 30px; */
+
+/* letter-spacing: 0em; */
+/* text-align: center; */
+
+/* }
+.buttons{
+padding: 0px, 389.5px, 0px, 389.48px;
+gap: 10px;
+
+}
+.button1{
+width: 160.8px;
+height:  52px;
+padding: 16px, 34.8px, 16px, 35px;
+border-radius: 500px;
+border: 2px;
+font-family: Helvetica;
+font-size: 13px;
+font-weight: 700;
+background-color: #000; 
+color: #fff;
+margin-right: 10px;
+
+
+}
+.button2{
+  width: 192.8px;
+  height:  52px;
+  padding: 16px, 34.8px, 16px, 35px;
+  border-radius: 500px;
+  border: 2px solid rgba(255, 255, 255, 1); 
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  background-color: transparent ;
+  color: #fff;
+}
+.termsConditions{
+  font-family: Helvetica;
+  font-size: 10px;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(255, 255, 255, 3);
+  padding-top: 30px;
+}
+.underline{
+  text-decoration: underline;
+} */
+ 
